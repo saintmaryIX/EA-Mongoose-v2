@@ -1,41 +1,5 @@
-# EA Node.js + TypeScript + Mongoose
+fuentes
+- los apuntes que tomé a partir del repositorio de github + ejemplos y teoría que me explicaban los chatbots.
 
-## Requisitos Previos
-
-Asegúrate de tener instalados los siguientes programas en tu sistema:
-
-- [Node.js](https://nodejs.org/) (versión 14.x o superior)
-- [MongoDB](https://www.mongodb.com/) (puede ser local o en la nube a través de MongoDB Atlas)
-- [npm](https://www.npmjs.com/) 
-- [TS] TypeScript
-
-Instalar TypeScript
-```
-npm install -g typescript
-```
-
-## Clonar el proyecto
-
-```
-git clone https://github.com/rocmeseguer/EA-Mongoose
-cd EA-Mongoose
-```
-
-## Dependencias del proyecto
-
-Instalar Mongoose y otras dependencias
-```
-npm install
-```
-
-## Complilación y ejecución
-
-Transpilar de TS a JS
-```
-tsc 
-```
-
-Ejecutar JS
-```
-node dist/mongoogse.js
-```
+he utilizado IA para crear el model de location. me parecía una tarea mecánica (una vez has entendido qué es una interfaz, un scheme...) así que he decidido delegar.
+el código del service lo he picado a mano. la IA me ha corregido sintaxis.
